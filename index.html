@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preparación PP1 Biología</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Pantalla de Selección de Módulo -->
+        <div id="module-selection" class="module-selection-container">
+            <h1>Preparación PP1 Biología</h1>
+            <div id="module-buttons" class="module-buttons">
+                <!-- Los botones de los módulos se generarán con JavaScript -->
+            </div>
+        </div>
+
+        <!-- Pantalla del Quiz -->
+        <div id="quiz-container" class="quiz-container hidden">
+            <div id="quiz-header">
+                <h2 id="question-text">Aquí va la pregunta</h2>
+                <p id="progress-text">Pregunta 1 de X</p>
+            </div>
+            <img id="question-image" src="" alt="Imagen de la pregunta" class="hidden">
+            <div id="answer-buttons" class="btn-grid">
+                <!-- Las opciones de respuesta se generarán con JavaScript -->
+            </div>
+            <div class="controls">
+                <button id="next-btn" class="next-btn btn hidden">Siguiente</button>
+            </div>
+        </div>
+
+        <!-- Pantalla de Resultados -->
+        <div id="results-container" class="results-container hidden">
+            <h2>¡Quiz Finalizado!</h2>
+            <p id="score-text">Tu puntuación: 0 de 0</p>
+            <button id="restart-btn" class="btn">Volver al inicio</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
